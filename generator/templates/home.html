@@ -1,0 +1,29 @@
+{% extends 'layout.html'%} {% block content %}
+<form action="{% url 'password' %}">
+  <h1>Generador de Contraseñas</h1>
+
+  <label for="length">Seleccione la longitud de la contraseña</label>
+  <select name="length" id="length">
+    <option value="6">6 Caracteres</option>
+    <option value="7">7 Caracteress</option>
+    <option value="8">8 Caracteres</option>
+    <option value="9">9 Caracteres</option>
+    <option value="10">10 Caracteres</option>
+    <option value="11">11 Caracteres</option>
+    <option value="12">12 Caracteres</option>
+    <option value="13">13 Caracteres</option>
+    <option value="14">14 Caracteres</option>
+  </select>
+
+  <label for="uppercase">Mayùsculas</label>
+  <input type="checkbox" name="uppercase" id="uppercase" />
+  <label for="uppercase">Minùsculas</label>
+  <input type="checkbox" name="lowercase" id="lowercase" />
+  <label for="uppercase">Nùmeros</label>
+  <input type="checkbox" name="number" id="number" />
+  <label for="uppercase">Caracteres especiales</label>
+  <input type="checkbox" name="punctuation" id="punctuation" />
+
+  <button>Generar contraseña</button>
+</form>
+{% endblock %}
