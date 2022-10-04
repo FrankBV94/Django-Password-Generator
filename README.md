@@ -1,27 +1,19 @@
 # Django-Password-Generator
-***
- Improve Python skills by learning how to code 20 beginner Python projects.
-## Table of Contents
-- [Python-Begginer-projects](#python-begginer-projects)
-  - [Table of Contents](#table-of-contents)
-    - [General Info](#general-info)
-    - [Technologies](#technologies)
-    - [Installation](#installation)
-    - [Collaboration](#collaboration)
-    - [FAQs](#faqs)
+## Tabla de contenidos
+- [Django-Password-Generator](#django-password-generator)
+  - [Tabla de contenidos](#tabla-de-contenidos)
+    - [Informacion genral](#informacion-genral)
+    - [Tecnologias](#tecnologias)
+    - [Instalacion](#instalacion)
 
 
-### General Info
-***
+### Informacion genral
+Miniprojecto de ejemplo de un generador de contraseñas web 
+* [Django tu primer sitio Web, Generador de Contraseñas](https://www.youtube.com/watch?v=I0m92SBfDI8&t=278s)
 
-### Technologies
+### Tecnologias
 ***
-A list of technologies used within the project:
 * [Python](https://www.python.org/): Version 3.10.5
 * [Visual Studio Code](https://code.visualstudio.com/): Version 1.69.2
-### Installation
-***
-### Collaboration
-***
-### FAQs
+### Instalacion
 ***
